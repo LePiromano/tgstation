@@ -324,6 +324,7 @@
 	projectile_type = /obj/projectile/colossus
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/colossus_final/Activate(atom/target_atom)
+        cooldown_time = 0.5 SECONDS
 	. = ..()
 	Remove(owner)
 
